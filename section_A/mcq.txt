@@ -1,0 +1,21 @@
+Section A MCQ answers
+
+A1: sqlite3 (option b)
+
+A2: conn.commit()  (option b)
+
+A3: 2 (option b)
+
+A4: None (option c)
+
+A5: 5 (option c)
+
+A6: uvicorn main:app --reload (option b)
+
+A7: /docs (option c)
+
+A8: POST (option b)
+
+A9: 422 (option d)
+
+A10: 303 (option c)
