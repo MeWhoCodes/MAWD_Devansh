@@ -1,0 +1,29 @@
+CRUD stands for:
+
+- C = Create
+- R = Read
+- U = Update
+- D = Delete
+
+Common SQL commands and FastAPI HTTP methods:
+
+- Create
+  - SQL: INSERT INTO table_name (...) VALUES (...)
+  - FastAPI: POST
+  - Example: POST /items
+
+- Read
+  - SQL: SELECT * FROM table_name WHERE ...
+  - FastAPI: GET
+  - Example: GET /items or GET /items/{id}
+
+- Update
+  - SQL: UPDATE table_name SET ... WHERE ...
+  - FastAPI: PUT or PATCH
+  - Example: PUT /items/{id} or PATCH /items/{id}
+  - PUT = replace the whole resource, PATCH = partial update
+
+- Delete
+  - SQL: DELETE FROM table_name WHERE ...
+  - FastAPI: DELETE
+  - Example: DELETE /items/{id}

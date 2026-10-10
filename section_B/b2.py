@@ -7,3 +7,6 @@ vikram = ("Vikram","BCA","Udaipur",67)
 cursor = conn.cursor()
 
 cursor.execute("insert into Students (name,course,city,marks)",vikram)
+
+conn.commit()
+conn.close()
